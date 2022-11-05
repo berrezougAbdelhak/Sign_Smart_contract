@@ -1,0 +1,9 @@
+if the deployment is failed with the command:
+truffle migrate --network goerli 
+You can use :
+truffle deploy --compile-none --network goerli
+
+https://github.com/trufflesuite/truffle/issues/3356
+
+When we use test it is better to use contract instead of describe to allow the clean room features
+-You can check that on the website https://trufflesuite.com/docs/truffle/how-to/debug-test/write-tests-in-javascript/

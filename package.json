@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/berrezougAbdelhak/Dapp_boilerplate_Truffle#readme",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.1",
     "dotenv": "^16.0.3"
   }
 }
