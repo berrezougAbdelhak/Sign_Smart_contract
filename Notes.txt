@@ -7,3 +7,7 @@ https://github.com/trufflesuite/truffle/issues/3356
 
 When we use test it is better to use contract instead of describe to allow the clean room features
 -You can check that on the website https://trufflesuite.com/docs/truffle/how-to/debug-test/write-tests-in-javascript/
+-We can use the both contract and describe
+
+-You have to specify the path when you do the test so on develop mode :
+test test/file.js
